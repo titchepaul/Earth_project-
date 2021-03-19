@@ -9,7 +9,7 @@ package helloword;
  *
  * @author pault
  */
-public class Planete {
+public abstract class Planete {
     
     String nom;
     int diametre;

@@ -9,7 +9,14 @@ package helloword;
  *
  * @author pault
  */
-public interface Habitable {
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.List;
+
+public class Galaxie {
     
-    void accueillirVaisseaux(Vaisseau... nouveauVaisseaux);
+    String nom;
+    Set<Planete> planetes=new HashSet();
+    
 }

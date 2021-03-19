@@ -13,7 +13,7 @@ public class VaisseauDeGuerre extends Vaisseau{
     
      boolean armesDesactivees;
 
-    public VaisseauDeGuerre(String type){
+    public VaisseauDeGuerre(TypeVaisseau type){
         this.type=type;
         if (type.equals("CHASSEUR")){
             tonnageMax=0;

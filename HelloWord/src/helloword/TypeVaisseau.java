@@ -9,7 +9,12 @@ package helloword;
  *
  * @author pault
  */
-public interface Habitable {
+public enum TypeVaisseau {
     
-    void accueillirVaisseaux(Vaisseau... nouveauVaisseaux);
+     CHASSEUR("Chasseur"), FREGATE("Frégate"), CROISEUR("Croiseur"), CARGO("Cargo"), VAISSEAUMONDE("Vaisseau-Monde");
+    public String nom;
+
+    TypeVaisseau(String nom) {
+        this.nom = nom;
+    }
 }
